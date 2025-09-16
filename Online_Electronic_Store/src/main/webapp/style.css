@@ -1,0 +1,56 @@
+body {
+  font-family:cursive;
+  font-size:large;
+  font-style:oblique;
+  animation-play-state:running;
+  font-feature-settings:"abvs";
+  text-transform:uppercase;
+  text-decoration-line:unset;
+  text-shadow:0 2px 1px rgb(5,15,25,3.1);
+  text-decoration-color:crimson;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color:lavender;
+  background-image: url("../../../onlineShopping.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color:palegreen;
+  box-shadow: 0 2px 5px rgba(10, 20, 30, 5.1);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+h1 u {
+  text-decoration:wavy;
+  font-weight: bold;
+}
+
+h1 i {
+  font-style: italic;
+}
+
+a {
+  text-decoration:dotted;
+  color:blueviolet;
+  padding: 10px 20px;
+  border: 3px solid black;
+  border-radius: 15px;
+  margin: 2px;
+  display: inline-block;
+}
+
+a:hover {
+  background-color:chartreuse;
+}

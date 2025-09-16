@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+        body {
+            font-family: sans-serif;
+            background-color:tan;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        center {
+            background-color:aliceblue;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+            width: 400px; 
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        u {
+            font-size: 1.2em;
+            font-weight: bold;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        i {
+            font-style: normal;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: calc(100% - 22px); /* Full width minus padding and border */
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Include padding and border in element's total width and height */
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+	<center>
+		<h1>
+			<form action="crs" method="post">
+				<u><i>Enter Customer Details</i></u><br><br>
+				User Name : <input type="text" name="uname"><br><br>
+				Password : <input type="password" name="cpwd"><br><br>
+				First Name : <input type="text" name="cfname"><br><br>
+				Last Name : <input type="text" name="clname"><br><br>
+				Address : <input type="text" name="caddr"><br><br>
+				MailId : <input type="text" name="cmail"><br><br>
+				Phone : <input type="text" name="cphone"><br><br>
+				
+				<input type="submit" value="Register">
+			</form>
+		</h1>
+	</center>
+</body>
+</html>
